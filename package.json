@@ -1,0 +1,18 @@
+{
+  "name": "production_monitoring",
+  "version": "1.0.0",
+  "description": "Production-style observability demo for Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "prom-client": "^15.1.3",
+    "winston": "^3.19.0"
+  }
+}
